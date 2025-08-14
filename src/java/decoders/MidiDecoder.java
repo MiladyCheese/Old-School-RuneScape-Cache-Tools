@@ -21,7 +21,7 @@ public class MidiDecoder {
         int archive = 0;// currentGUI.selectedArchive;
         int file = 0;// currentGUI.selectedFile;
 
-        for (archive = 0; archive < 1000; archive++) {
+        for (archive = 0; archive < 1220; archive++) {
             try {
                 File outputFilePath = null;
 

@@ -2,6 +2,8 @@ package decoders;
 
 import com.application.GUI;
 import com.displee.cache.CacheLibrary;
+
+import osrs.MusicTrack;
 import osrs.SoundEffect;
 
 import javax.sound.sampled.AudioFileFormat;
@@ -23,10 +25,10 @@ public class SoundEffectDecoder {
         gui = currentGUI;
         cacheLibrary = GUI.cacheLibrary;
         int index = currentGUI.selectedIndex;
-        int archive = currentGUI.selectedArchive;
-        int file = currentGUI.selectedFile;
-
-        try {
+        int archive = 0;// currentGUI.selectedArchive;
+        int file = 0;// currentGUI.selectedFile;
+        for (archive = 0; archive < 11000; archive++) {
+            try {
 
             File outputFilePath = new File(GUI.cacheLibrary.getPath() + File.separator + "Decoded Data" + File.separator + "Sound Effects");
 
@@ -48,4 +50,6 @@ public class SoundEffectDecoder {
             e.printStackTrace();
         }
     }
+
+}
 }

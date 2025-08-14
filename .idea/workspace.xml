@@ -10,84 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff99cb81-229b-4f6a-ae79-9556ed12a440" name="Changes" comment="Upgrade to v0.6-beta, fix OSRS 229+ cache loading">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old-School-RuneScape-Cache-Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Old-School-RuneScape-Cache-Tools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/application/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/application/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/decoders/InterfaceDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/decoders/SpritesBatchDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/decoders/SpritesBatchDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/encoders/ModelNewConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/encoders/ModelNewConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/ModelViewer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/controllers/ModelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/model/Grid3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/model/Vector3i.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/model/Xform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/OriginalPointArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/PolygonMesh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/PolygonMeshView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/SubdividedPointArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/SubdivisionMesh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/SymbolicPointArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/SymbolicPolygonMesh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/polygonalmesh/SymbolicSubdivisionBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/rs/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/rs/buffer/Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/scene/RSMeshGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/scene/camera/OrbitCamera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/modelviewer/util/ColorUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/InterfaceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/ObjectManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/OverlayManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/SpriteManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/StructManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/TextureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/TextureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/UnderlayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/UnderlayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/ClientScript1Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/ClientScript1Instruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBRowDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBRowDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBTableDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBTableDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBTableIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/DBTableIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/ItemDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/ItemDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/KitDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/KitDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/NpcDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/NpcDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/SequenceDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/SpriteDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/SpriteDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/StructDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/TextureDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/TextureDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/UnderlayDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/UnderlayDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/exporters/SpriteExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/exporters/SpriteExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBRowLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBRowLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBTableIndexLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBTableIndexLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBTableLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/DBTableLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/EnumLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/EnumLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/HitSplatLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/LocationsLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/MapLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/ObjectLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/OverlayLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/ParamLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/SequenceLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/SpriteLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/SpriteLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/StructLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/TextureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/TextureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/UnderlayLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/UnderlayLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/loaders/VarbitLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/providers/StructProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/InterfaceSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/ItemSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/LocationSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/MapSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/NpcSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/definitions/savers/ObjectSaver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/loaders/TextureLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/managers/TextureManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/region/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/region/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/region/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/region/RegionLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/util/BaseVarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/util/BaseVarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/net/runelite/cache/util/ScriptVarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/runelite/cache/util/ScriptVarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/rshd/ModelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/rshd/ModelData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/rshd/TextureLoaderHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/rshd/TextureLoaderHD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/decoders/MidiDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/decoders/MidiDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/decoders/SoundEffectDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/decoders/SoundEffectDecoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,25 +108,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "B:/IdeaProjects/Old-School-RuneScape-Cache-Tools/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/First Farter/Desktop/refactored-client-435-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.application" />

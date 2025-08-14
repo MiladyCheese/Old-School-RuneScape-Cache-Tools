@@ -1,12 +1,19 @@
-# Old School RuneScape Cache Tools (v0.6-beta)
+# Old School RuneScape Cache Tools (v0.7-beta)
+
 ### The ultimate suite of RuneScape Cache modification tools!
 Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
+
 ## This suite features:
-### A simple 3D Model Viewer, built into the main window! (Taken down for now, implementing a better viewer)
+
+### 3D Model Viewer
+A simple 3D Model Viewer, built into the main window! (Taken down for now, implementing a better viewer)
+
 ### Cache Functions
 * Select Cache Data - A quick way to select a specific archive file in the cache.
+
 * Search Cache (Work in progress)
   * Allows you to search for the location of a file based on any given name. Currently, whatever is searched for prints the results to the system console.
+
 * Cache explorer with functions for manipulating raw data
   * Add Files
   * Export Files
@@ -15,6 +22,7 @@ Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
   * Set Archive name hash (Numerical)
   * Set Archive name (String)
   * Export All Index Data
+
 * Helpful information within the Cache explorer
   * Cache Type (RuneScape 2, Old School RuneScape, RuneScape High Definition, or RuneScape 3)
   * Cache Index Name (based on type)
@@ -29,12 +37,13 @@ Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
     * Archive Revision
   * Index CRC Value
   * Index Version
+
 #### Cache Data Encoding and Decoding
 * Individual Data Encoding tools (To RuneScape Format)
   * MIDI Music and MIDI Jingles (For best results encode with Type 0 MIDI files)
   * OBJ Model and MTL File (Textures not supported yet)
   * OGG Vorbis Instrument Samples
-####
+
 * Individual Data Decoding tools (To General Format)
   * Configuration
     * Enums
@@ -44,10 +53,11 @@ Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
     * Automatically adjusted decoder based on Cache Type (Currently supports: RuneScape 2, Old School RuneScape & RuneScape High Definition)
   * OGG Vorbis Instrument Samples
   * SoundFont 2 Instrument Patches
-####
-  * Batch Data Decoding Tools (To General Format)
-    * Configuration
-      * Enums
+
+* Batch Data Decoding Tools (To General Format)
+  * Configuration
+    * Enums
+
 ### Tools
 * Music player tool
   * Load Custom MIDI Files
@@ -58,8 +68,11 @@ Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
   * Batch render all music and jingles to the cache output folder
   * Shuffle songs from folder or cache where possible
   * Ability to override the instruments with a SoundFont 2 file of choice, using the original instrument configurations.
+
 * Music port tool for utilizing the RuneScape sounds in music producing applications such as Cubase, etc. (MIDI Port must contain "port" in its name)
+
 * Xtea Keys Tool, to decode encrypted map files - The relevant archive/file must be selected in the explorer while using the tool.
+
 * Model Converter - New to Old, converts the RuneScape High Definition era models to older RuneScape 2 models, preserving the RuneScape format.
 
 ### Credits
@@ -78,5 +91,3 @@ Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
 * Model Viewer: Textures do not work in RS2 caches
 * Model Viewer: Textures may not load in all RSHD caches
 * Model Viewer: May not work on Mac computers, a workaround would be running the project or jar directly through IntelliJ IDEA.
-
-## That's all for now. Enjoy!

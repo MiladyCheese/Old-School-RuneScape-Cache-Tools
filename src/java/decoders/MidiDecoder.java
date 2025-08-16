@@ -21,15 +21,19 @@ public class MidiDecoder {
         int archive = 0;// currentGUI.selectedArchive;
         int file = 0;// currentGUI.selectedFile;
 
-        for (archive = 0; archive < 1220; archive++) {
+        for (archive = 0; archive < 1300; archive++) {
             try {
                 File outputFilePath = null;
 
                 if (index == 6) {
+                    if (cacheLibrary.index(6).archive(archive) != null) {
                     outputFilePath = new File(GUI.cacheLibrary.getPath() + File.separator + "Decoded Data" + File.separator + "MIDI Music");
+                    }
                 }
                 if (index == 11) {
+                    if (cacheLibrary.index(11).archive(archive) != null) {
                     outputFilePath = new File(GUI.cacheLibrary.getPath() + File.separator + "Decoded Data" + File.separator + "MIDI Jingles");
+                    }
                 }
                 if (outputFilePath != null) {
                     boolean madeDirectory = outputFilePath.mkdirs();

@@ -372,6 +372,9 @@ public class GUI extends JFrame {
 
         JButton musicRenderAllButton = new JButton("Render all Music to Files");
         musicRenderAllButton.addActionListener(e -> renderAllSongs());
+        
+        JButton exitMusicPlayerButton = new JButton("Exit Music Player");
+        exitMusicPlayerButton.addActionListener(e -> exitPlayer());
 
         musicPlayerPanel.add(songInfoLabel);
         musicPlayerPanel.add(songNameInput);
@@ -383,6 +386,7 @@ public class GUI extends JFrame {
         musicPlayerPanel.add(musicStopButton);
         musicPlayerPanel.add(musicRenderButton);
         musicPlayerPanel.add(musicRenderAllButton);
+        musicPlayerPanel.add(exitMusicPlayerButton);
 
         JPanel settingsPanel = new JPanel();
 
@@ -850,7 +854,11 @@ public class GUI extends JFrame {
     }
 
     private void exitPlayer() {
-        stopSong();
+        stopSong();  
+        JPanel contentPanel = new JPanel();
+        setContentPane(contentPanel);
+        contentPanel.setLayout(new BorderLayout());
+        loadCache(new File(cacheLibrary.getPath()));
         revalidate();
     }
 

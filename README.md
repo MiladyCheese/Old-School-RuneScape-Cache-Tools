@@ -1,4 +1,6 @@
-# Old School RuneScape Cache Tools (v0.7-beta)
+# Old School RuneScape Cache Tools
+
+`MiladyCheese/Old-School-RuneScape-Cache-Tools` is the current official tool (forked from the original which was intentionally abandoned).
 
 ### The ultimate suite of RuneScape Cache modification tools!
 Made with IntelliJ IDEA using Java 1.8 SDK with various libraries.
